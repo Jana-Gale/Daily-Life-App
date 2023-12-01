@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(182deg, #017474 1.52%, #008080 98.42%);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.dail_Life {
+    background-color: white;
+    width: 100%;
+    max-width: 540px;
+    border-radius: 10px;
+    padding: 40px 30px 30px;
+    margin: 100px auto;
+    box-shadow: 0px 4px 16.1px 0px rgba(0, 0, 0, 0.63)
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 img {
+    width: 56px;
+    height: 56px;
+    margin-left: 20px;
+}
+
+.search_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    padding: 5px px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.search_box input {
+    flex: 1;
+    padding: 5px 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: #D9D9D9;
+    font-size: 14px;
+}
+
+.search_box button {
+    background-color: #008080;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.search_box button:hover {
+    background-color: #017474;
+    transition: 0.4s;
+}
+
+ul {
+    margin: 20px 5px;
+    list-style-type: none;
+    font-size: 18px;
+    word-break: break-all;
+}
+
+ul li {
+    margin: 15px 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* width: 100%;
+    word-wrap: break-word; */
+    justify-content: space-between;
+}
+
+
+/* #check-oppration {
+    position: absolute;
+    right: 8%;
+    margin-right: 5px;
+} */
+
+#check-oppration {
+    display: flex;
+    align-items: center;
+}
+
+#check-oppration>* {
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.Remove-btn {
+    padding: 5px 10px;
+    border-radius: 100%;
+    /* position: absolute;
+    right: 0; */
+    cursor: pointer;
+}
+
+.Remove-btn:hover {
+    background-color: #008080;
+    color: #fff;
+    transition: 0.4s;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #008080;
+    margin-right: 4px;
+}
+
+.delete {
+    color: #008080;
+    text-align: right;
+    margin: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
